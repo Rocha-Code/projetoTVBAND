@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Blinker';
+}
+/* ---------------------- SEÇÃO HEADER ---------------------- */
+
+header img{
+    width: 100px;
+    height: auto;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8)),url(./img/estudio.webp);
+    background-position: center;
+    background-size: cover;
+    padding: 20px 20px 0px 20px;
+}
+
+.logo h1 {
+    color: white;
+}
+
+nav{
+    display: flex;
+    gap: 40px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 5px solid transparent;
+}
+
+nav a:hover{
+    color: #FFC20F;
+    border-bottom: 5px solid #FFC20F;
+}
+
+.header-direita{
+    color: white;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+
+.header-direita i:hover{
+    color: #FFC20F;
+    cursor: pointer;
+}
+
+.botoes{
+    gap: 20px;
+}
+
+.btn-cadastro{
+    background-color: #008C45;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.btn-cadastro:hover{
+    background-color: #015f30;
+    cursor: pointer;
+}
+
+.btn-login{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.btn-login:hover{
+    background-color: #FFC20F;
+    color: black;
+    cursor: pointer;
+}
+/* ---------------------- SEÇÃO HEADER ---------------------- */
+
+/* ---------------------- SEÇÃO HOME ---------------------- */
+.home{
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.p-home-comeco{
+    color: #FFC20F;
+    font-size: 20px;
+}
+
+.h2-home-centro{
+    color: white;
+    font-size: 65px;
+    line-height: 55px;
+}
+
+.p-home-fim{
+    color: white;
+    font-size: 14px;
+}
+
+.btn-play{
+    background-color: #FFC20F;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.btn-play i{
+    padding-right: 10px;
+    font-size: 20px;
+}
+/* ---------------------- SEÇÃO HOME ---------------------- */
+
+/* ---------------------- SEÇÃO NOTICIAS ---------------------- */
+
+section.ultimas-noticias{
+    background-color: #08121E;
+    padding: 20px 20px 80px 20px;
+    
+}
+
+.programa{
+    background-color: #ffffff;
+    padding: 20px 20px 80px 20px;
+}
+
+.superior-noticias{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.superior-noticias h2{
+    border-left: 5px solid #FFC20F;
+    padding-left: 10px;
+}
+
+.superior-programas h2{
+    border-left: 5px solid #FFC20F;
+    padding-left: 10px;
+}
+
+.superior-noticias p{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.superior-programas p{
+    color: #000000;
+    font-weight: bold;
+}
+
+.superior-programas{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.superior-programas h2{
+    border-left: 5px solid #FFC20F;
+}
+
+.superior-programas h2{
+    border-left: 5px solid #FFC20F;
+    color: #000;
+}
+
+.cards{
+    display: flex;
+    gap: 18px;
+    justify-content: space-between;
+}
+
+.cards img{
+    width: 312px;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+}
+
+.cards .noticia{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 314px;
+    height: 342px;
+}
+
+.cards .programas{
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 314px;
+    height: 342px;
+    background-color: #ffffff;
+}
+
+.noticia h2{
+    color: white;
+}
+
+.noticia h3{
+    color: #c5c5c585;
+}
+
+.noticia p{
+    color: #c5c5c585;
+}
+
+.noticia h3{
+    font-weight: normal;
+}
+
+.noticia h2, h3, p{
+    padding: 10px 10px 0px 10px;
+}
+
+.noticia i{
+    padding: 0 10px 0 0;
+}
+
+.programas h2{
+    color: #000;
+}
+
+.programas h3{
+    color: #000;
+    font-weight: normal;
+}
+
+.programas p{
+    color: #000000;
+}
+
+.programas h2, h3, p{
+    padding: 10px 10px 0px 10px;
+}
+
+.programas i{
+    padding: 0 10px 0 0;
+}
+
+/* ---------------------- SEÇÃO JORNAL ---------------------- */
+.direita-jornal p{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.esquerda-jornal{
+    flex-direction: row;
+}
+
+.esquerda-jornal h2, p{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.btn-play{
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.jornal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0C1A29;
+    padding: 30px 20px 30px 20px;
+}
+
+.tela{
+    width: 500px;
+    height: 300px;
+    background: linear-gradient(to right, #050015, #071119);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.btn-aovivo{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.ao-vivo{
+    margin-bottom: 40px;
+    margin-left: 350px;
+}
+
+.logo-tela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-tela img{
+    width: 150px;
+}
+
+.logo-tela h1{
+    color: #ffffff;
+}
