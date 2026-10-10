@@ -196,8 +196,7 @@ section.ultimas-noticias{
 
 .cards{
     display: flex;
-    gap: 18px;
-    justify-content: space-between;
+    gap: 80px;
 }
 
 .cards img{
@@ -331,4 +330,45 @@ section.ultimas-noticias{
 
 .logo-tela h1{
     color: #ffffff;
+}
+
+/*---------------------------------- FOOTER ----------------------------------*/
+
+.footer {
+    background-color: #08121E;
+    height: 15vh;
+}
+
+.footer-direita {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-direita i {
+    color: white;
+    font-size: 25px;
+}
+
+.footer-direita i:hover {
+    color: #FFC20F;
+}
+
+.footer-info {
+    padding: 20px 20px 0px 20px;
+    background-color: #08121E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.footer-info img {
+    width: 100px;
+    height: auto;
+}
+
+.p-footer-inferior {
+    place-self: center;
+    margin-bottom: 10px;
+    color: white;
 }
